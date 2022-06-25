@@ -18,6 +18,4 @@ const markup = ingredients.map(el => {
   return itemRef;
 });
 
-console.log(markup);
-
 refs.ingredientsRef.append(...markup);
