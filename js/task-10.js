@@ -32,4 +32,4 @@ function destroyBoxes() {
 }
 
 divCreator.addEventListener('click', onClickCreateBoxes);
-divDestroyer.addEventListener('click', destroyBoxes());
+divDestroyer.addEventListener('click', destroyBoxes);
